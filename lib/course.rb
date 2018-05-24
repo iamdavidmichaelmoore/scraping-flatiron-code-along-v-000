@@ -6,6 +6,9 @@ class Course
 
   @@all
 
+  def initialize
+    self.class.all << self
+
   def self.all
     self.class.all
   end
