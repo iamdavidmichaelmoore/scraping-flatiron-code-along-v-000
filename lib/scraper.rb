@@ -31,6 +31,8 @@ class Scraper
     end
   end
 
+  Scraper.new.print_courses
+
 
     def print_courses
     self.make_courses
