@@ -8,6 +8,7 @@ class Course
 
   def initialize
     self.class.all << self
+  end
 
   def self.all
     self.class.all
