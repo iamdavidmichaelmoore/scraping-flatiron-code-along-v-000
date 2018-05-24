@@ -7,7 +7,7 @@ class Course
   @@all = []
 
   def initialize
-    self.class.all << self
+    self.all << self
   end
 
   def self.all
@@ -15,7 +15,7 @@ class Course
   end
 
   def self.reset_all
-    self.class.all.clear
+    self.all.clear
   end
 
 end
